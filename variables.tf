@@ -2,6 +2,10 @@ variable name {
   description = "IAM role name."
 }
 
+variable aws_region {
+  description = "aws region"
+}
+
 variable inline_policies {
   description = "Optional additional inline IAM policy documents."
   type        = "list"
